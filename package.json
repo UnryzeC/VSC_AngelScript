@@ -1,0 +1,54 @@
+{
+	"name": "angelscript",
+	"displayName": "AngelScript Warcraft III",
+	"description": "Adds AngelScript syntax support for Warcraft III on UjAPI.",
+	"version": "1.0.0",
+	"keywords": [
+		"angelscript",
+		"wacraft",
+		"ujapi",
+		"unryze"
+	],
+	"publisher": "Unryze",
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"markdown": "github",
+	"categories": [
+		"Programming Languages",
+		"Formatters",
+		"Snippets"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/UnryzeC/VSC_AngelScript"
+	},
+	"homepage": "https://github.com/UnryzeC/VSC_AngelScript",
+	"icon": "images/as-icon.png",
+	"contributes": {
+		"languages": [
+			{
+				"id": "angelscript",
+				"aliases": [
+					"AngelScript",
+					"angelscript"
+				],
+				"extensions": [
+					".as",
+					".ass"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "angelscript",
+				"scopeName": "source.angelscript",
+				"path": "./syntaxes/AngelScript.tmLanguage.json"
+			}
+		]
+	},
+	"bugs": {
+		"url": "https://github.com/UnryzeC/VSC_AngelScript/issues"
+	}
+}
